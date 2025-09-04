@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #283345;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.box {
+    background: linear-gradient(135deg, #8360c382, #2ebf9180);
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form input, .form button {
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+}
+
+#todoInput {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.15); /* semi transparan */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffefef;
+}
+
+#todoInput::placeholder {
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+#dateInput {
+    flex: 1;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 0.15); /* semi transparan */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+#addBtn {
+    background: #0d244059; 
+    color: #ffffff;      
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 0.09;
+}
+
+#addBtn:hover {
+    background: #446897cd;
+}
+
+.act {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.act button {
+    background: #0d244059;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.act button:hover {
+    background: #446897cd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+tr:hover {
+    background: #446897cd;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgba(84, 132, 176, 0.422);
+}
